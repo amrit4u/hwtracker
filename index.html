@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Homework Tracker</h1>
+        <form id="homework-form">
+            <input type="text" id="homework" placeholder="Enter homework assignment" required>
+            
+            <!-- Label for Date -->
+            <label for="due-date">Date</label>
+            <input type="date" id="due-date" required>
+            
+            <button type="submit">Add Homework</button>
+        </form>
+        
+        <ul id="homework-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
